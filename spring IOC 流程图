@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-10T06:50:58.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="3tN74VfAWaDyGyTI09vn" version="15.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-10T06:58:45.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="dUkQXa1XN-C8new1eMa9" version="15.7.1" type="github">
   <diagram id="3wtDEpGWtuPlg0ZQq9qa" name="第 1 页">
     <mxGraphModel dx="1209" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,6 +80,9 @@
         </mxCell>
         <mxCell id="pcZKInTePHXrmUhI9L2F-1" value="完整的BeanDefinition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pcZKInTePHXrmUhI9L2F-2" value="0、准备工作&lt;br&gt;1、创建容器对象&lt;br&gt;2、读取配置文件，加载BeanDefinition对象&lt;br&gt;2.1、给容器对象进行某些初始化操作&lt;br&gt;3、执行BeanFactoryPostProcessor的扩展工作&lt;br&gt;3.1、准备工作&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;1、注册BeanPostProcessor&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2、初始化广播器&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;3、国际化的相关配置&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;4、注册监听器&lt;br&gt;4、对象的实例化操作&lt;br&gt;5、进行对象的初始化操作&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;1、自定义属性赋值&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;2、容器对象属性赋值&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;3、调用BeanPostProcessor的前置处理方法进行扩展&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;4、调用initMethod方法进行初始化方法的调用&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;5、调用BeanPostProcessor的后置处理方法进行扩展" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="430" width="320" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
