@@ -1,33 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T03:33:15.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="pYziu7xDZBOEprgjOZmu" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T04:19:41.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="fxMGCW43k0-iInLI1rh9" version="15.7.3" type="github">
   <diagram id="ui_wG3QZJv_yEZTvrZ4Z" name="第 1 页">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-8" target="1a5nTo9B3F3iDElWpVwX-26">
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-66" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="465" width="160" height="365" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-65" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="180" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-64" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="920" y="400" width="140" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-8" target="1a5nTo9B3F3iDElWpVwX-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-8" value="解析及注册BeanDefinitions" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-8" value="解析及注册BeanDefinitions" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="190" y="500" width="300" height="370" as="geometry" />
         </mxCell>
         <mxCell id="1a5nTo9B3F3iDElWpVwX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-5" target="1a5nTo9B3F3iDElWpVwX-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="250" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-5" target="1a5nTo9B3F3iDElWpVwX-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-5" value="获取XML的验证模式&lt;br&gt;DTD或XSD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-5" value="获取XML的验证模式&lt;br&gt;DTD或XSD&lt;span style=&quot;text-align: left&quot;&gt;getValidationModeForResource(resource)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1a5nTo9B3F3iDElWpVwX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-6" target="1a5nTo9B3F3iDElWpVwX-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-6" target="1a5nTo9B3F3iDElWpVwX-17">
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-6" target="1a5nTo9B3F3iDElWpVwX-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-6" value="加载XML文件，获取对应的Document" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-6" value="加载XML文件，获取对应的Document&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;documentLoader.loadDocument&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1a5nTo9B3F3iDElWpVwX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-10" target="1a5nTo9B3F3iDElWpVwX-5">
@@ -36,14 +43,6 @@
         <mxCell id="1a5nTo9B3F3iDElWpVwX-10" value="将配置文件封装成Resource" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-14" value="getValidationModeForResource(resource)&lt;br&gt;1.手动指定&lt;br&gt;2.自动推测（是否包含doctype 如果包含是DTD，否则就是XSD）" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="213.75" width="250" height="72.5" as="geometry" />
-        </mxCell>
-        <UserObject label="documentLoader.loadDocument&lt;br&gt;EntityResolver的用法：使项目本身可以提供一个如何寻找DTD声明的方法，避免通过网络来寻找声明。" link="documentLoader.loadDocument" id="1a5nTo9B3F3iDElWpVwX-17">
-          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="471" y="337.5" width="220" height="105" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="1a5nTo9B3F3iDElWpVwX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-19" target="1a5nTo9B3F3iDElWpVwX-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -53,14 +52,83 @@
         <mxCell id="1a5nTo9B3F3iDElWpVwX-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-21" target="1a5nTo9B3F3iDElWpVwX-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-21" value="&lt;span&gt;默认命名空间标签解析（beans/bean/import/alias）&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-21" value="&lt;span&gt;默认命名空间标签解析parseDefaultElement&lt;br&gt;（beans/bean/import/alias）&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-23" value="&lt;span&gt;自定义命名空间标签解析(tx:/aop:/context:等等)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-23" value="&lt;span&gt;自定义命名空间标签解析delegate.parseCustomElement&lt;br&gt;(tx:/aop:/context:等等)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-26" value="registerBeanDefinitions" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="670" width="150" height="30" as="geometry" />
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-29" value="&lt;br&gt;&lt;span&gt;EntityResolver的用法：使项目本身可以提供一个如何寻找DTD声明的方法，避免通过网络来寻找声明。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-30" value="&lt;br&gt;&lt;span&gt;1.手动指定&lt;/span&gt;&lt;br&gt;&lt;span&gt;2.自动推测（是否包含doctype 如果包含是DTD，否则就是XSD）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480" y="215" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-38" value="&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); font-family: helvetica;&quot;&gt;registerBeanDefinitions&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="585" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-39" target="1a5nTo9B3F3iDElWpVwX-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-39" value="对import标签处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-41" target="1a5nTo9B3F3iDElWpVwX-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-41" value="对alias标签处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-43" target="1a5nTo9B3F3iDElWpVwX-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-43" target="1a5nTo9B3F3iDElWpVwX-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-43" value="对bean标签处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-45" value="对beans标签处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="745" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-48" target="1a5nTo9B3F3iDElWpVwX-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-48" target="1a5nTo9B3F3iDElWpVwX-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-48" value="解析BeanDefinition" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-50" target="1a5nTo9B3F3iDElWpVwX-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-50" value="解析默认标签中的自定义标签元素" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-52" target="1a5nTo9B3F3iDElWpVwX-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-52" value="注册解析的BeanDefinition" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-54" value="通知监听器解析及注册完成" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-57" target="1a5nTo9B3F3iDElWpVwX-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-57" value="创建用于承载属性的BeanDefinition对象" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-59" target="1a5nTo9B3F3iDElWpVwX-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-59" value="解析、赋值各种属性&lt;br&gt;scope/singletion/lazy-init/autowire/init-method等等" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-61" value="解析、赋值各子自元素&lt;br&gt;meta/constutor-arg/property等等" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="585" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
