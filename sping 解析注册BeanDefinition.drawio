@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T04:47:24.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="5bieJVWiJKfTGWfAfLjA" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-12T05:26:18.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="-kzTvNtMQbKvlMQEKN_K" version="15.7.3" type="github">
   <diagram id="ui_wG3QZJv_yEZTvrZ4Z" name="第 1 页">
     <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="1a5nTo9B3F3iDElWpVwX-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-5" target="1a5nTo9B3F3iDElWpVwX-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1a5nTo9B3F3iDElWpVwX-5" value="获取XML的验证模式&lt;br&gt;DTD或XSD&lt;span style=&quot;text-align: left&quot;&gt;getValidationModeForResource(resource)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1a5nTo9B3F3iDElWpVwX-5" value="获取XML的验证模式&lt;br&gt;DTD或XSD&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;getValidationModeForResource(resource)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1a5nTo9B3F3iDElWpVwX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1a5nTo9B3F3iDElWpVwX-6" target="1a5nTo9B3F3iDElWpVwX-8">
